@@ -60,6 +60,7 @@ v-for="(item) in list2"
         :key="index"
         :haha="item.id"></component>
       </Drag3>
+      <Vue3/>
   </div>
 </template>
 
@@ -74,11 +75,12 @@ import Test from './components/Test'
 import Drag2 from './components/Drag2'
 import Drag3 from './components/Drag3.js'
 import { EventBus } from './components/EventBus'
+import Vue3 from './components/Vue3'
 
 let idGlobal = 10
 export default {
   name: 'app',
-  components: { draggable, Drag, A, B, C, D, Test, Drag2, Drag3 },
+  components: { draggable, Drag, A, B, C, D, Test, Drag2, Drag3, Vue3 },
   data () {
     return {
       dragged: null,
