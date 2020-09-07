@@ -9,4 +9,4 @@ Vue.use(plugin)
 new Vue({
   render: h => h(App)
 }).$mount('#app')
-var a = 3
+var a = 4
