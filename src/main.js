@@ -9,4 +9,4 @@ Vue.use(plugin)
 new Vue({
   render: h => h(App)
 }).$mount('#app')
-var a = 1
+var a = 2
